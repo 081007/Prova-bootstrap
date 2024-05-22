@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!--menu-->
+    <div class="menu bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <img src="/img/logo.png" width="50px" height="50px" alt="logo">
+                <a href="#">ProjetoOne</a>
+            </div>
+                <div class="menu-nav">
+                <ul>     
+                    <button type="button" class="btn btn-outline-primary"><li><a href="#inicio">Home</a></li></button>
+                    <button type="button" class="btn btn-outline-primary"><li><a href="#sobre">Sobre</a></li></button>
+                    <button type="button" class="btn btn-outline-primary"><li><a href="#contato">Contatos</a></li></button>
+
+                </ul>
+                </div>
+                
+            </div>
+            
+                  <nav class="navbar" style="background-color: rgb(128, 92, 185)">
+                  <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" data-bs-theme="light">
+                      <button class="btn btn-outline-success" type="submit" data-bs-theme="dark">Search</button>
+                    </form>
+                  </div>
+                </nav>
+        </div>
+   
+            
+    <!--carrossel-->        
+            <div id="carouselCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/img1.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/img3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/img5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block"  data-bs-slide="carousel" data-bs-interval="400">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="carousel" data-bs-interval="4000">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <!--GRUPOS-->
+              <nav class="nav nav-pills nav-fill">
+                <a class="nav-link active" aria-current="page" href="#" style="background-color: purple;">MAQUIAGENS</a>
+                <a class="nav-link" href="#" style="color: purple;">ROUPAS</a>
+                <a class="nav-link" href="#" style="color: purple;">CABELO</a>
+                <a class="nav-link" href="#" style="color: purple;">ACESSÓRIOS</a>
+              </nav>
+     <!--card1-->
+     <section class="pt-5 pb-5">
+      <div class="container">
+
+
+        <div class="carousel-inner">
+          <div class="carouselcard-item active">
+            <div class="row">
+
+
+              <div class="col-md-3 mb-3">
+              <div class="card">
+                <img class="img-fluid" alt="100%x200" src="/img/i12.avif"  width= "249px" height="328.5px">
+                <div class="card-body">
+                  <h5 class="card-title">PIC 1</h5>
+                  <p class="card-text">R$ 86</p>
+                  <a href="#" class="btn btn-primary" style="background-color: plum;">Go somewhere</a>
+                </div>
+              </div>
+              </div>
+        <!--card2-->
+        <div class="col-md-3 mb-3">
+        <div class="card">
+          <img src="/img/i7.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PIC 2</h5>
+            <p class="card-text">R$ 135</p>
+            <a href="#" class="btn btn-primary" style="background-color: plum;">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+        <!--card3-->
+        <div class="col-md-3 mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="/img/i8.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PIC 3</h5>
+            <p class="card-text">R$ 120</p>
+            <a href="#" class="btn btn-primary" style="background-color: plum;">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <!--card4-->
+        <div class="col-md-3 mb-3">
+          <div class="card" style="width: 18rem;">
+            <img src="/img/i9.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PIC 4</h5>
+              <p class="card-text">R$ 378,99</p>
+              <a href="#" class="btn btn-primary" style="background-color: plum;">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/i1.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PIC 5</h5>
+                <p class="card-text">R$ 378,99</p>
+                <a href="#" class="btn btn-primary" style="background-color: plum;">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-3 mb-3">
+              <div class="card" style="width: 18rem;">
+                <img src="/img/i2.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PIC 6</h5>
+                  <p class="card-text">R$ 378,99</p>
+                  <a href="#" class="btn btn-primary" style="background-color: plum;">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="/img/i3.avif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">PIC 7</h5>
+                    <p class="card-text">R$ 378,99</p>
+                    <a href="#" class="btn btn-primary" style="background-color: plum;">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+                <div class="col-md-3 mb-3">
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/i11.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PIC 8</h5>
+                      <p class="card-text">R$ 378,99</p>
+                      <a href="#" class="btn btn-primary" style="background-color: plum;">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+
+              </section>
+
+    <!--seção novo card-->
+          
+    <!--preço-->
+          
+    <section class="preco" id="preço">
+      <div class="preco-item">
+        <h2>Cobre</h2>
+        <span><sup>R$</sup>19</span>
+        <li>Planod ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <UL>
+          <a href="#">Comprar</a>
+        </ul>
+      </div>
+      <div class="preco-item">
+        <h2>Prata</h2>
+        <span><sup>R$</sup>39</span>
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <ul>
+          <a href="#">Comprar</a>
+        </ul>
+      </div>
+      <div class="preco-item">
+        <h2>Ouro</h2>
+        <span><sup>R$</sup>79</span>
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <ul>
+          <a href="#">Comprar</a>
+        </ul>
+      </div> 
+    </section>
+            
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!--NewsLetter-->
+<div class="Newsletter">
+<section class="newsletter">
+<div class="newsletterInfo">
+<h1>NewsLetter</h1>
+<p>assine e fique por dentro das novidades</p>
+</div>
+<form class="newsletterForm">
+  <input type="email" placeholder="Digite seu e-mail"></input>
+  <button class= "button" type="submit" value="Enviar" style="background-color: rgb(180, 86, 224);">Enviar</button>
+</form>
+</section>
+</div>
+
+    <!--informações gerais-->
+    <!--footer-->
+    <div class="footer1">
+      <div class="footer1Info">
+        <p>Rua, Heloise de La Crown - 03101997</p>
+        <a href="tel: +55895046740">+55 24 956058912</a>
+        <p> Horário de funcionamento: Segunda / Sexta - 08:00 as 18:00</p>
+      </div>
+    </div>
+
+    <!--footer2-->
+
+    <section class="footer2">
+    <div class="rSociais2">
+      <a href=""> .</a>
+    </div>      
+   
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
